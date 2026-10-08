@@ -9,6 +9,15 @@ There are two entry points in this repo:
 | Legacy | `app.main:app` (repo root, `app/`) | health, products, cart |
 | Backend (current) | `backend/` (`src.main:backend_app`) | health, products, cart, orders, checkout, integrations |
 
+## Tech stack
+
+| Area | Technologies |
+|------|--------------|
+| Backend | `Python`, `FastAPI`, `Pydantic Settings`, `httpx`, `Uvicorn` |
+| Database | `SQLAlchemy (async)`, `SQLite (aiosqlite)` |
+| Auth | `JWT (python-jose)`, `passlib` |
+| DevOps and tooling | `Docker`, `Docker Compose`, `pytest`, `mypy` |
+
 ## Run
 
 Legacy entry (from the repo root):
